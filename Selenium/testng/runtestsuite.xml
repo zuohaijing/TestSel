@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" preserve-order="true"><test name="SeleniumAutomationTestSuite" verbose="2"><classes><class name="autom.common.HayStack_tc1"/></classes></test></suite>

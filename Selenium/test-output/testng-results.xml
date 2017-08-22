@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestPrefs: Tried to load "testprefs.xml", but it disappeared]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 'HayStack_tc1': ** @TEST - 'HayStack_tc1' ***]]>
+    </line>
+    <line>
+      <![CDATA[: ** Load default global data sheet successfully. **]]>
+    </line>
+    <line>
+      <![CDATA[setUp: Start Setup]]>
+    </line>
+    <line>
+      <![CDATA[Setup: IE Driver not found C:\Projects\trunk\Selenium\Selenium\bin\IEDriverServer.exe]]>
+    </line>
+    <line>
+      <![CDATA[Test case 'HayStack_tc1' method 'WorkFlow': started.]]>
+    </line>
+    <line>
+      <![CDATA[ScreenshotTestRule: Taking screenshot for WorkFlow, filename: C:\Projects\trunk\Selenium\screenshots\screenshot0.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenshotTestRule: java.lang.NullPointerException]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="9844" started-at="2017-06-09T14:25:27Z" finished-at="2017-06-09T14:25:36Z">
+    <groups>
+    </groups>
+    <test name="SeleniumAutomationTestSuite" duration-ms="9844" started-at="2017-06-09T14:25:27Z" finished-at="2017-06-09T14:25:36Z">
+      <class name="autom.common.HayStack_tc1">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:autom.common.HayStack_tc1@fc180e]" name="oneTimeSetUp" is-config="true" duration-ms="9792" started-at="2017-06-09T10:25:27Z" finished-at="2017-06-09T10:25:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase 'HayStack_tc1': ** @TEST - 'HayStack_tc1' ***]]>
+            </line>
+            <line>
+              <![CDATA[: ** Load default global data sheet successfully. **]]>
+            </line>
+            <line>
+              <![CDATA[setUp: Start Setup]]>
+            </line>
+            <line>
+              <![CDATA[Setup: IE Driver not found C:\Projects\trunk\Selenium\Selenium\bin\IEDriverServer.exe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="FAIL" signature="WorkFlow()[pri:0, instance:autom.common.HayStack_tc1@fc180e]" name="WorkFlow" duration-ms="7" started-at="2017-06-09T10:25:36Z" finished-at="2017-06-09T10:25:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at autom.common.HayStack_tc1.WorkFlow(HayStack_tc1.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at autom.common.RegularTC.<init>(RegularTC.java:254)
+	at autom.common.runTest18.main(runTest18.java:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 'HayStack_tc1' method 'WorkFlow': started.]]>
+            </line>
+            <line>
+              <![CDATA[ScreenshotTestRule: Taking screenshot for WorkFlow, filename: C:\Projects\trunk\Selenium\screenshots\screenshot0.png]]>
+            </line>
+            <line>
+              <![CDATA[ScreenshotTestRule: java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WorkFlow -->
+      </class> <!-- autom.common.HayStack_tc1 -->
+    </test> <!-- SeleniumAutomationTestSuite -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
